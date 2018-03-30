@@ -61,3 +61,29 @@
 7、特有的运算符
 	a**b = a的幂次方
 	a//b取商的整数；
+8、条件语句
+	if 判断条件1:
+		执行语句1……
+	elif 判断条件2:
+		执行语句2……
+	elif 判断条件3:
+		执行语句3……
+	else:
+		执行语句4……
+9、循环
+	1>while 判断条件：
+			执行语句……
+		例子：#!/usr/bin/python
+			count = 0
+			while (count < 9):
+			   print 'The count is:', count
+			   count = count + 1
+			 
+			print "Good bye!"
+	2>for循环				 
+		for letter in 'Python':     # 第一个实例
+		   print '当前字母 :', letter
+		fruits = ['banana', 'apple',  'mango']
+		for fruit in fruits:        # 第二个实例
+		   print '当前水果 :', fruit	 
+		print "Good bye!"
